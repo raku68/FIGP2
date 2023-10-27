@@ -1,7 +1,7 @@
-# FIGP for QSAR/QSPR
-FIGP is a symbolic regression using Filter-introduced Genetic Programming with the constant optimization by Nonlinear Least Square. GP implementation is **DEAP** library and mathematical expressions are analyzed with the help of the **sympy** library. As expression filters, three filters can be used: Variable filter, Functional filter and Domain filter.
+# FIGP2 for QSAR/QSPR
+FIGP2 represents an enhancement in the generalizability over its predecessor, FIGP. FIGP employs a symbolic regression approach, utilizing Filter-introduced Genetic Programming coupled with constant optimization via Nonlinear Least Square. The implementation of Genetic Programming is facilitated by the **DEAP** library, while the **sympy** library is employed for the analysis of mathematical expressions. Four filters can be applied as expression filters: Variable filter, Functional filter, Domain filter, and Domain filter 2.
 
-The main target of FIGP is for QSAR/QSPR models. The three filters help find human-understandable mathematical expressions as a result of giving up the extremely precise expressions explaining a training data set. Details are found in our publication. 
+The main target of FIGP2 is for QSAR/QSPR models. The three filters help find human-understandable mathematical expressions as a result of giving up the extremely precise expressions explaining a training data set. Details are found in our publication. 
 
 
 ### Reference: Shirasawa R.; Takaki K.; Miyao T. Generalizability Improvement of Symbolic Regression Models for Interpretable Quantitative Structure-activity Relationship Models, in preparation
@@ -19,7 +19,7 @@ The following libraries are necessary on top of [Python 3.9](https://www.python.
 
   
 ### Installation
-We recoomend that above packages are installed before running the installation commnad, although the installation command can automatically install theose packages.
+We recomend that above packages are installed before running the installation commnad, although the installation command can automatically install theose packages.
 
 
 1. Close the github repository
