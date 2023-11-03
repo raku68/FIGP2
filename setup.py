@@ -8,9 +8,9 @@ def _requirement_packages(filename):
 setup(
 	name="figp2",
 	version="0.1.0",
-	license="Creative Commons Attribution 4.0 International License",
+	license="MIT License",
 	description="Symbolic regression with FIGP2",
-	author="Raku Shirasawa",
+	author="Raku Shirasawa and Katsushi Takaki",
 	url="https://github.com/raku68/FIGP2",
 	packages=find_packages("src"), # detect python packages in the codes
 	package_dir={"":"src"},
